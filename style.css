@@ -17,7 +17,7 @@ body {
 }
 
 .hero-gradient {
-    background: linear-gradient(315deg, rgba(255, 211, 90, 0.9) 0%, rgb(108, 186, 255) 100% );
+    background: linear-gradient(315deg, rgb(232, 244, 243) 0%, rgb(172, 232, 248) 100% );
 }
 
 .service-card {

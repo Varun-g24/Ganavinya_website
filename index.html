@@ -50,23 +50,34 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="pt-24 pb-20 hero-gradient text-white">
+    <section id="home" class="pt-24 pb-20 hero-gradient text-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="md:flex items-center justify-between">
                 <div class="md:w-1/2 mb-10 md:mb-0">
                     <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Transforming Data & Analytics for the Future</h1>
                     <p class="text-xl mb-8 opacity-90">Your trusted partner in Data Virtualization, AI/ML, and Analytics Engineering solutions.</p>
                     <div class="flex space-x-4">
-                        <a href="#contact" class="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition duration-300">Get Started</a>
-                        <a href="#services" class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-lg font-semibold transition duration-300">Our Services</a>
+                        <a href="#home" class="border-2 border-white text-emerald-700 hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-lg font-semibold transition duration-300">Get Started</a>
+                        <a href="#services" class="border-2 border-white text-emerald-700 hover:bg-white hover:text-indigo-600 px-6 py-3 rounded-lg font-semibold transition duration-300">Our Services</a>
                     </div>
                 </div>
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                             alt="Data Analytics" class="rounded-xl max-h-96 object-cover">
+                <div class="md:w-1/2 flex justify-center relative h-[400px]">
+                    <!-- Top Image -->
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2">
+                        <img src="assests/images/metrics.png" alt="Data Analytics" class="rounded-xl w-40 h-40 object-cover">
+                    </div>
+                
+                    <!-- Bottom Left Image -->
+                    <div class="absolute bottom-0 left-1/4 transform -translate-x-1/2">
+                        <img src="assests/images/statistical-analysis.png" alt="Data Analytics" class="rounded-xl w-40 h-40 object-cover">
+                    </div>
+                
+                    <!-- Bottom Right Image -->
+                    <div class="absolute bottom-0 right-1/4 transform translate-x-1/2">
+                        <img src="assests/images/insight.png" alt="Data Analytics" class="rounded-xl w-40 h-40 object-cover">
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -97,64 +108,47 @@
                         <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium">AI/ML</span>
                         <span class="bg-amber-100 text-amber-800 px-4 py-2 rounded-full text-sm font-medium">Data Visualization</span>
                         <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">Analytic Engineering</span>
+                        <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium">Consulting Services</span>
+                        <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Data Platform Migration</span>
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                        <div class="text-indigo-600 text-3xl mb-3">
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 transition duration-300 hover:bg-gradient-to-r hover:from-indigo-800 hover:to-blue-700">
+                        <div class="text-indigo-600 text-3xl mb-3 group-hover:text-white transition duration-300">
                             <i class="fas fa-users"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-800 mb-2">Experienced Team</h4>
-                        <p class="text-gray-600 text-sm">Senior architects with deep industry knowledge</p>
+                        <h4 class="font-semibold text-gray-800 mb-2 group-hover:text-white transition duration-300">Experienced Team</h4>
+                        <p class="text-gray-600 text-sm group-hover:text-white transition duration-300">Senior architects with deep industry knowledge</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                        <div class="text-emerald-600 text-3xl mb-3">
+
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 transition duration-300 hover:bg-gradient-to-r hover:from-indigo-800 hover:to-blue-700">
+                        <div class="text-emerald-600 text-3xl mb-3 group-hover:text-white transition duration-300">
                             <i class="fas fa-globe"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-800 mb-2">Global Presence</h4>
-                        <p class="text-gray-600 text-sm">Partners in UK and Malaysia</p>
+                        <h4 class="font-semibold text-gray-800 mb-2 group-hover:text-white transition duration-300">Global Presence</h4>
+                        <p class="text-gray-600 text-sm group-hover:text-white transition duration-300">Partners in UK and Malaysia</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                        <div class="text-amber-600 text-3xl mb-3">
+
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 transition duration-300 hover:bg-gradient-to-r hover:from-indigo-800 hover:to-blue-700">
+                        <div class="text-amber-600 text-3xl mb-3 group-hover:text-white transition duration-300">
                             <i class="fas fa-lightbulb"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-800 mb-2">Innovative Solutions</h4>
-                        <p class="text-gray-600 text-sm">Cutting-edge approaches to data challenges</p>
+                        <h4 class="font-semibold text-gray-800 mb-2 group-hover:text-white transition duration-300">Innovative Solutions</h4>
+                        <p class="text-gray-600 text-sm group-hover:text-white transition duration-300">Cutting-edge approaches to data challenges</p>
                     </div>
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                        <div class="text-blue-600 text-3xl mb-3">
+
+                    <div class="group bg-white p-6 rounded-xl shadow-sm border border-gray-100 transition duration-300 hover:bg-gradient-to-r hover:from-indigo-800 hover:to-blue-700">
+                        <div class="text-blue-600 text-3xl mb-3 group-hover:text-white transition duration-300">
                             <i class="fas fa-handshake"></i>
                         </div>
-                        <h4 class="font-semibold text-gray-800 mb-2">Client Focused</h4>
-                        <p class="text-gray-600 text-sm">Tailored solutions for your specific needs</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Team Images Section -->
-            <div class="mt-16">
-                <h3 class="text-2xl font-semibold text-gray-800 mb-8 text-center">Our Team in Action</h3>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="image-container h-48">
-                        <img src="assests\images\a.jpg" 
-                             alt="Team meeting" class="w-full h-full object-cover">
-                    </div>
-                    <div class="image-container h-48">
-                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                             alt="Team collaboration" class="w-full h-full object-cover">
-                    </div>
-                    <div class="image-container h-48">
-                        <img src="assests\images\b.jpg" 
-                             alt="Data analysis" class="w-full h-full object-cover">
-                    </div>
-                    <div class="image-container h-48">
-                        <img src="assests\images\download.jpg" 
-                             alt="Data visualization" class="w-full h-full object-cover">
+                        <h4 class="font-semibold text-gray-800 mb-2 group-hover:text-white transition duration-300">Client Focused</h4>
+                        <p class="text-gray-600 text-sm group-hover:text-white transition duration-300">Tailored solutions for your specific needs</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Vision Section -->
     <section id="vision" class="py-20 bg-gradient-to-br from-indigo-50 to-blue-200">
@@ -163,69 +157,81 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Vision</h2>
                 <div class="w-20 h-1 bg-indigo-600 mx-auto mb-6"></div>
             </div>
-            
+
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div class="md:flex">
-                    <div class="md:w-1/2 p-10">
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Building the Future of IT</h3>
-                        <p class="text-gray-600 mb-6">
+                <div class="md:flex flex-col-reverse md:flex-row">
+                    <div class="md:w-1/2 p-10" style="background-color: #dc9659">
+                        <h3 class="text-3xl font-semibold text-gray-800 mb-4 underline tracking-wide">Building the Future of IT</h3>
+                        <p class="text mb-10">
                             Build a strong Micro hub of Architects to solve industrial problems just like any legal or construction firms bringing greater accountability and faster solutions reducing costs and improving time to market.
                         </p>
-                        <p class="text-gray-600 mb-6">
+                        <p class="text mb-10">
                             We foresee this as future of IT industry. We look forward to collaborating or offer our consultancy services or architect services with hands-on for any business big or small.
                         </p>
                         <div class="flex items-center space-x-4">
-                            <div class="flex-shrink-0 bg-indigo-100 p-3 rounded-full">
-                                <i class="fas fa-rocket text-indigo-600"></i>
-                            </div>
-                            <p class="text-gray-600">Innovative approaches to traditional challenges</p>
+                            <div class="flex-shrink-0 bg-indigo-100 p-3 rounded-full transition duration-300 hover:bg-purple-600 hover:scale-105 hover:shadow-lg cursor-pointer">
+                                <i class="fas fa-rocket text-purple-700 hover:text-white transition duration-300"></i>
+                            </div>                            
+                            <p class="text-emerald-900">Innovative approaches to traditional challenges</p>
                         </div>
                     </div>
-                    <div class="md:w-1/2 bg-gradient-to-br from-indigo-600 to-indigo-300 text-white p-10">
-                        <div class="image-container">
-                            <!--<div class="absolute inset-0 bg-gradient-to-br from-indigo-300 to-indigo-500 opacity-20"></div>-->
-                            <div class="relative z-10 h-full flex flex-col justify-center">
-                                <div class="flex items-center">
-                                    <img src="assests\images\vision.jpg" 
-                                    alt="Future vision" class="w-full h-64 object-contain">
+
+                    <!-- Second Section -->
+                    <div class="md:w-1/2">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                                <!-- Card 1 -->
+                            <div class="group relative overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                                <img src="assests/images/a.jpg" alt="Architect-Led Teams" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 group-hover:opacity-0">
+                                    <p class="text-lg font-semibold">Architect-Led Teams</p>
                                 </div>
-                                <h3 class="text-2xl font-semibold mb-4">Our Approach</h3>
-                                <div class="space-y-6">
-                                    <div class="flex items-start space-x-4">
-                                        <div class="flex-shrink-0 bg-white text-indigo-600 p-2 rounded-full">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div>
-                                            <h4 class="font-medium">Architect-Led Teams</h4>
-                                            <p class="text-indigo-100">Senior experts leading every project</p>
-                                        </div>
+                                <div class="absolute inset-0 bg-gray-800 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-4">
+                                    <div>
+                                        <p class="text-lg font-semibold text-white mb-2">Architect-Led Teams</p>
+                                        <p class="text-sm text-gray-200">Senior experts leading every project</p>
                                     </div>
-                                    <div class="flex items-start space-x-4">
-                                        <div class="flex-shrink-0 bg-white text-indigo-600 p-2 rounded-full">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div>
-                                            <h4 class="font-medium">Knowledge-Centric</h4>
-                                            <p class="text-indigo-100">Deep expertise at the core of everything we do</p>
-                                        </div>
+                                </div>
+                            </div>    
+                            
+                               <!-- Card 2 -->
+                            <div class="group relative overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                                <img src="assests/images/b.jpg" alt="Architect-Led Teams" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 group-hover:opacity-0">
+                                    <p class="text-lg font-semibold">Knowledge-Centric</p>
+                                </div>
+                                <div class="absolute inset-0 bg-gray-800 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-4">
+                                    <div>
+                                        <p class="text-lg font-semibold text-white mb-2">Knowledge-Centric</p>
+                                        <p class="text-sm text-gray-200">Deep expertise at the core of everything we do</p>
                                     </div>
-                                    <div class="flex items-start space-x-4">
-                                        <div class="flex-shrink-0 bg-white text-indigo-600 p-2 rounded-full">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div>
-                                            <h4 class="font-medium">Agile Delivery</h4>
-                                            <p class="text-indigo-100">Rapid implementation without compromising quality</p>
-                                        </div>
+                                </div>
+                            </div> 
+
+                            <!-- Card 3 -->
+                            <div class="group relative overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                                <img src="assests/images/c.jpg" alt="Architect-Led Teams" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 group-hover:opacity-0">
+                                    <p class="text-lg font-semibold">Agile Delivery</p>
+                                </div>
+                                <div class="absolute inset-0 bg-gray-800 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-4">
+                                    <div>
+                                        <p class="text-lg font-semibold text-white mb-2">Agile Delivery</p>
+                                        <p class="text-sm text-gray-200">Rapid implementation without compromising quality</p>
                                     </div>
-                                    <div class="flex items-start space-x-4">
-                                        <div class="flex-shrink-0 bg-white text-indigo-600 p-2 rounded-full">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div>
-                                            <h4 class="font-medium">Cost-Effective</h4>
-                                            <p class="text-indigo-100">Reducing expenses while improving outcomes</p>
-                                        </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Card 4 -->
+                            <div class="group relative overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                                <img src="assests/images/d.jpg" alt="Architect-Led Teams" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 group-hover:opacity-0">
+                                    <p class="text-lg font-semibold">Cost-Effective</p>
+                                </div>
+                                <div class="absolute inset-0 bg-gray-800 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-4">
+                                    <div>
+                                        <p class="text-lg font-semibold text-white mb-2">Cost-Effective</p>
+                                        <p class="text-sm text-gray-200">Reducing expenses while improving outcomes</p>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +243,7 @@
     </section>
 
 
-    <!-- Services Section -->
+    <!-- Services  Section -->
     <section id="services" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -247,166 +253,181 @@
                     Comprehensive solutions tailored to your data and analytics needs
                 </p>
             </div>
-            
-            <div class="services-container-wrapper overflow-hidden relative">
-                <div class="services-container flex transition-transform duration-500 ease-in-out" id="services-scroll">
-                    <!-- Service 1 -->
-                    <a href="datavirtualization.html" class="service-card w-full flex-shrink-0 rounded-xl p-8 flex flex-col bg-emerald-100">
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+                <!-- Service Card 1-->
+                <a href="datavirtualization.html" class="group relative block overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                    <!-- Full Image -->
+                    <img src="assests/images/c.jpg" 
+                        alt="Data Virtualization" class="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105">
+    
+                    <!-- Always visible title at bottom -->
+                    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 transition duration-500 group-hover:opacity-0">
+                        <h3 class="text-xl font-semibold">Data Virtualization</h3>
+                    </div>
+    
+                    <!--<div class="absolute inset-0 bg-gray-800 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-4">-->
+                    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-95 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-3">
                         <div>
-                            <div class="image-container h-80 mb-4">
-                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                    alt="Data Virtualization" class="w-full h-full object-cover">
-                            </div>
-                            <h3 class="text-xl font-semibold mb-3">Data Virtualization</h3>
-                            <p class="mb-4">
+                            <h3 class="text-lg font-semibold text-white mb-2">Data Virtualization</h3>
+                            <p class="text-sm text-gray-300 mb-2">
                                 Data Virtualization is apt for Multinational or large Enterprises with vast amount of multi variant data. It offers various features to seamlessly integrate data with least or no data storage for integration.
                             </p>
-                            <div class="mb-4">
-                                <h4 class="font-medium mb-2">Our Expertise:</h4>
-                                <ul class="text-sm space-y-1">
-                                    <li>• Denodo & Tibco implementations</li>
-                                    <li>• Enterprise-scale solutions</li>
-                                    <li>• Fortune 500 experience</li>
-                                    <li>• Free PoC available</li>
-                                </ul>
-                            </div>
+                            <h4 class="font-medium text-white mb-1">Our Expertise:</h4>
+                            <ul class="text-sm text-gray-300 space-y-0.5">
+                                <li>• Denodo & Tibco implementations</li>
+                                <li>• Enterprise-scale solutions</li>
+                                <li>• Fortune 500 experience</li>
+                                <li>• Free PoC available</li>
+                            </ul>
                         </div>
-                    </a>
-                    
-                    
-                    <!-- Service 2 -->
-                    <a href="ai_ml.html" class="service-card w-full flex-shrink-0 rounded-xl p-8 flex flex-col bg-purple-100">
+                    </div>
+                </a>
+                <!-- Service Card 2-->
+                <a href="ai_ml.html" class="group relative block overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                    <!-- Full Image -->
+                    <img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" 
+                        alt="Data Virtualization" class="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105">
+    
+                    <!-- Always visible title at bottom -->
+                    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 transition duration-500 group-hover:opacity-0">
+                        <h3 class="text-xl font-semibold">AI/ML Solutions</h3>
+                    </div>
+    
+                    <!-- Hover content -->
+                    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-95 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-3">
                         <div>
-                            <div class="image-container h-80 mb-4">
-                                <img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" 
-                                    alt="AI/ML Solutions" class="w-full h-full object-cover">
-                            </div>
-                            <h3 class="text-xl font-semibold mb-3">AI/ML Solutions</h3>
-                            <p class="mb-4">
+                            <h3 class="text-xl font-semibold text-white mb-2">AI/ML Solutions</h3>
+                            <p class="text-sm text-gray-300 mb-2">
                                 With the advancement in algorithms in AIML space, every field in industry will look forward to inculcating this technology to enhance their service or reduce their efforts.
                             </p>
-                            <div class="mb-4">
-                                <h4 class="font-medium mb-2">Our Offerings:</h4>
-                                <ul class="text-sm space-y-1">
-                                    <li>• Certified AI/ML SMEs</li>
-                                    <li>• Problem-solving expertise</li>
-                                    <li>• Collaboration opportunities</li>
-                                    <li>• Custom implementations</li>
-                                </ul>
-                            </div>
+                            <h4 class="font-medium text-white mb-1">Our Offering:</h4>
+                            <ul class="text-sm text-gray-300 space-y-0.5">
+                                <li>• Certified AI/ML SMEs</li>
+                                <li>• Problem-solving expertise</li>
+                                <li>• Collaboration opportunities</li>
+                                <li>• Custom implementations</li>
+                            </ul>
                         </div>
-                    </a>
-                    
-                    <!-- Service 3 -->
-                    <a href="datavisualization.html"  class="service-card w-full flex-shrink-0 rounded-xl p-8 flex flex-col bg-amber-100">
+                    </div>
+                </a>
+                <!-- Service Card 3-->
+                <a href="datavisualization.html" class="group relative block overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                    <!-- Full Image -->
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80"
+                        alt="Data Virtualization" class="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105">
+    
+                    <!-- Always visible title at bottom -->
+                    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 transition duration-500 group-hover:opacity-0">
+                        <h3 class="text-xl font-semibold">Data Visualization</h3>
+                    </div>
+    
+                    <!-- Hover content -->
+                    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-95 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-3">
                         <div>
-                            <div class="image-container h-80 mb-4">
-                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" 
-                                    alt="Data Visualization" class="w-full h-full object-cover">
-                            </div>
-                            <h3 class="text-xl font-semibold mb-3">Data Visualization</h3>
-                            <p class="mb-4">
+                            <h3 class="text-xl font-semibold text-white mb-2">Data Visualization</h3>
+                            <p class="text-sm text-gray-300 mb-2">
                                 Data Visualization is an art of storytelling which impacts on business decisions or process improvisation. An eye for data and an art to explain it is key for Data Visualization.
                             </p>
-                            <div class="mb-4">
-                                <h4 class="font-medium mb-2">Our Approach:</h4>
-                                <ul class="text-sm space-y-1">
-                                    <li>• Tool-agnostic solutions</li>
-                                    <li>• Real-time reporting</li>
-                                    <li>• Interactive dashboards</li>
-                                    <li>• Business impact focus</li>
-                                </ul>
-                            </div>
+                            <h4 class="font-medium text-white mb-1">Our Approach:</h4>
+                            <ul class="text-sm text-gray-300 space-y-0.5">
+                                <li>• Tool-agnostic solutions</li>
+                                <li>• Real-time reporting</li>
+                                <li>• Interactive dashboards</li>
+                                <li>• Business impact focus</li>
+                            </ul>
                         </div>
-                    </a>
-                    
-                    <!-- Service 4 -->
-                    <a href="analytic.html" class="service-card w-full flex-shrink-0 rounded-xl p-8 flex flex-col bg-blue-100">
+                    </div>
+                </a>
+                <!-- Service Card 4-->
+                <a href="analytic.html" class="group relative block overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                    <!-- Full Image -->
+                    <img src="assests/images/d.jpg"
+                        alt="Data Virtualization" class="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105">
+    
+                    <!-- Always visible title at bottom -->
+                    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 transition duration-500 group-hover:opacity-0">
+                        <h3 class="text-xl font-semibold">Analytic Engineering</h3>
+                    </div>
+    
+                    <!-- Hover content -->
+                    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-95 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-3">
                         <div>
-                            <div class="image-container h-80 mb-4">
-                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                    alt="Analytic Engineering" class="w-full h-full object-cover">
-                            </div>
-                            <h3 class="text-xl font-semibold mb-3">Analytic Engineering</h3>
-                            <p class="mb-4">
-                                With organizations embracing centralized digital platforms with Dev/Ops model trying to reduce the number of tools used and improve accountability.
-                            </p>
-                            <div class="mb-4">
-                                <h4 class="font-medium mb-2">Our Tools:</h4>
-                                <ul class="text-sm space-y-1">
-                                    <li>• DBT expertise</li>
-                                    <li>• Python development</li>
-                                    <li>• GitHub integration</li>
-                                    <li>• Ansible automation</li>
-                                </ul>
-                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">Analytic Engineering</h3>
+                            <p class="text-sm text-gray-300 mb-2">
+                                With organizations embracing centralized digital platforms with Dev/Ops model trying to reduce the number of tools used and improve accountability.</p>
+                            <h4 class="font-medium text-white mb-1">Our Tools:</h4>
+                            <ul class="text-sm text-gray-300 space-y-0.5">
+                                <li>• DBT expertise</li>
+                                <li>• Python development</li>
+                                <li>• GitHub integration</li>
+                                <li>• Ansible automation</li>
+                            </ul>
                         </div>
-                    </a>
+                    </div>
+                </a>
+                <!-- Service Card 5-->
+                <a href="datamigration.html" class="group relative block overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                    <!-- Full Image -->
+                    <img src="assests/images/section_vision.png"
+                        alt="Data Virtualization" class="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105">
+    
+                    <!-- Always visible title at bottom -->
+                    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 transition duration-500 group-hover:opacity-0">
+                        <h3 class="text-xl font-semibold">Data Platform Migration</h3>
+                    </div>
+    
+                    <!-- Hover content -->
+                    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-95 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-3">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-2">Data Platform Migration</h3>
+                            <p class="text-sm text-gray-300 mb-2">
+                                We have helped organizations migrate from various platforms in Data and Analytics space with minimal disruption and maximum efficiency.</p>
+                            <h4 class="font-medium text-white mb-1">Our Experience:</h4>
+                            <ul class="text-sm text-gray-300 space-y-0.5">
+                                <li>• Redhat Jboss to Denodo 8</li>
+                                <li>• Informatica + Oracle to DBT + Redshift</li>
+                                <li>• Seamless transitions</li>
+                                <li>• Performance optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
 
-                    <!-- Service 5 -->
-                    <a href="datamigration.html" class="service-card w-full flex-shrink-0 rounded-xl p-8 flex flex-col bg-red-50">
+
+                <!-- Service Card 6-->
+                <a href="consulting.html" class="group relative block overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 cursor-pointer">
+                    <!-- Full Image -->
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        alt="Data Virtualization" class="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105">
+    
+                    <!-- Always visible title at bottom -->
+                    <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-0 text-white text-center p-2 transition duration-500 group-hover:opacity-0">
+                        <h3 class="text-xl font-semibold">Consulting Services</h3>
+                    </div>
+    
+                    <!-- Hover content -->
+                    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-900 bg-opacity-95 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center text-center p-3">
                         <div>
-                            <div class="image-container h-80 mb-4">
-                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                    alt="Data Platform Migration" class="w-full h-full object-cover">
-                            </div>
-                            <h3 class="text-xl font-semibold mb-3">Data Platform Migration</h3>
-                            <p class="mb-4">
-                                We have helped organizations migrate from various platforms in Data and Analytics space with minimal disruption and maximum efficiency.
-                            </p>
-                            <div class="mb-4">
-                                <h4 class="font-medium mb-2">Our Experience:</h4>
-                                <ul class="text-sm space-y-1">
-                                    <li>• Redhat Jboss to Denodo 8</li>
-                                    <li>• Informatica + Oracle to DBT + Redshift</li>
-                                    <li>• Seamless transitions</li>
-                                    <li>• Performance optimization</li>
-                                </ul>
-                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">Consulting Services</h3>
+                            <p class="text-sm text-gray-300 mb-2">
+                                Our architect services with hands-on approach for any business big or small, helping you navigate complex data challenges.</p>
+                            <h4 class="font-medium text-white mb-1">Our Value:</h4>
+                            <ul class="text-sm text-gray-300 space-y-0.5">
+                                <li>• Strategic guidance</li>
+                                <li>• Technical leadership</li>
+                                <li>• Architecture design</li>
+                                <li>• Implementation support</li>
+                            </ul>
                         </div>
-                    </a>
-                    
-                    <!-- Service 6 -->
-                    <a href="consulting.html"  class="service-card w-full flex-shrink-0 rounded-xl p-8 flex flex-col bg-indigo-200">
-                        <div>
-                            <div class="image-container h-80 mb-4">
-                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                    alt="Consulting Services" class="w-full h-full object-cover">
-                            </div>
-                            <h3 class="text-xl font-semibold mb-3">Consulting Services</h3>
-                            <p class="mb-4">
-                                Our architect services with hands-on approach for any business big or small, helping you navigate complex data challenges.
-                            </p>
-                            <div class="mb-4">
-                                <h4 class="font-medium mb-2">Our Value:</h4>
-                                <ul class="text-sm space-y-1">
-                                    <li>• Strategic guidance</li>
-                                    <li>• Technical leadership</li>
-                                    <li>• Architecture design</li>
-                                    <li>• Implementation support</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="text-center mt-10">
-                <div class="scroll-indicator" id="scroll-indicator">
-                    <div class="scroll-dot active" data-index="0"></div>
-                    <div class="scroll-dot" data-index="1"></div>
-                    <div class="scroll-dot" data-index="2"></div>
-                    <div class="scroll-dot" data-index="3"></div>
-                    <div class="scroll-dot" data-index="4"></div>
-                    <div class="scroll-dot" data-index="5"></div>
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gradient-to-br from-gray-50 to-indigo-50">
+    <section id="contact" class="py-20 bg-gradient-to-br from-gray-100 to-blue-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Connect With Us</h2>
@@ -436,59 +457,27 @@
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div>
-                                <h4 class="font-medium text-gray-800">Our Location</h4>
-                                <p class="text-gray-600">Ganavinya Private Limited, Vijayanagar 1st stage, Mysore 570017</p>
+                                <h4 class="font-medium text-gray-800">Our Locations</h4>
+                                <p class="text-gray-600">Ganavinya Private Limited, Bangalore, Karnataka, IN</p>
                             </div>
                         </div>
-                        
-                        <div class="pt-6">
-                            <h4 class="font-medium text-gray-800 mb-4">Follow Us</h4>
-                            <div class="flex space-x-4">
-                                <a href="#" class="bg-indigo-100 text-indigo-600 hover:bg-indigo-600 hover:text-white p-3 rounded-full transition duration-300">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="#" class="bg-indigo-100 text-indigo-600 hover:bg-indigo-600 hover:text-white p-3 rounded-full transition duration-300">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="bg-indigo-100 text-indigo-600 hover:bg-indigo-600 hover:text-white p-3 rounded-full transition duration-300">
-                                    <i class="fab fa-facebook-f"></i>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 bg-indigo-100 p-3 rounded-full text-indigo-600">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">LinkedIn</h4>
+                                <a href="https://www.linkedin.com/company/ganavinya/" 
+                                class="text-indigo-600 hover:underline" 
+                                target="_blank">
+                                https://www.linkedin.com/company/ganavinya/
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div>
-                    <form class="bg-white rounded-xl shadow-md p-8" method="POST" action="#">
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Send Us a Message</h3>
-                        
-                        <div class="space-y-5">
-                            <div>
-                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
-                                <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="John Doe" required>
-                            </div>
-                            
-                            <div>
-                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                                <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="john@example.com" required>
-                            </div>
-                            
-                            <div>
-                                <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                                <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="How can we help?">
-                            </div>
-                            
-                            <div>
-                                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="Your message here..." required></textarea>
-                            </div>
-                            
-                            <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300">
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                <!-- Form is updating -->
             </div>
         </div>
     </section>
@@ -500,7 +489,7 @@
             <div class="grid md:grid-cols-4 gap-8 text-center w-full justify-items-center">
                 <div>
                     <div class="flex justify-center items-center mb-4">
-                        <img src="assests/images/logo.png" alt="Ganavinya Logo" class="h-10">
+                        <img src="assests/images/logo.png" alt="Ganavinya Logo" class="h-20">
                     </div>
                     <p class="text-gray-400">
                         Group of Architects solving industrial problems in Data and Analytics Space.
@@ -533,26 +522,20 @@
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
                         <li><a href="privacy_policy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cookie Policy</a></li>
+                        <li><a href="terms_services.html" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="cookie_policy.html" class="text-gray-400 hover:text-white transition duration-300">Cookie Policy</a></li>
                     </ul>
                 </div>
             </div>
 
             <!-- Bottom Section -->
-            <div class="border-t border-gray-700 mt-10 pt-8 flex flex-col items-center space-y-4 w-full">
+            <div class="border-t border-gray-700 mt-6 pt-4 flex flex-col items-center space-y-2 w-full">
                 <p class="text-gray-400 text-sm text-center">
                     ©2024 Ganavinya Private Limited. All rights reserved.
                 </p>
-                <div class="flex space-x-6 justify-center">
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                <div class="flex space-x-3 justify-center">
+                    <a href="https://www.linkedin.com/company/ganavinya/" class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-facebook-f"></i>
                     </a>
                 </div>
             </div>
